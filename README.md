@@ -6,11 +6,10 @@
  - NTP Synchronize time
 
 Todo List:
- - Show emoji by weather
- - More feture
+ - Show emojis based on the weather
+ - More features
 # Build one
-*Before you start, you must know that:*
-I only use HKO API, If you want to use this project in other country, you maybe need to change code
+*Before you start, you need to know that this project only uses HKO API. If you want to use it in another country, you may need to modify the code.*
 
 Things You need:    
  - ESP32(May also work on esp8266)(For me: esp32 devkit v1) 
