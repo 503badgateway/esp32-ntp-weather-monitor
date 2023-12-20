@@ -1,12 +1,12 @@
 
-<img src="https://github.com/503badgateway/esp32-ntp-weather-monitor/blob/main/WhatsApp%20Image%202023-12-18%20at%208.15.35%20PM.jpeg?raw=true" style="width: 25%"></img>
+<img src="https://github.com/503badgateway/esp32-ntp-weather-monitor/blob/main/img.jpeg?raw=true" style="width: 25%"></img>
 # esp32-ntp-weather-monitor  
  - Shows Weather
  - Shows Time
  - NTP Synchronize time
+ - Show emojis based on the weather :) / or :/ or :(
 
 Todo List:
- - Show emojis based on the weather
  - More features
 # Build one
 *Before you start, you need to know that this project only uses HKO API. If you want to use it in another country, you may need to modify the code.*
