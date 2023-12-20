@@ -66,7 +66,13 @@ def weather():
                 unit = entry["unit"]
                 utime = weather_data["temperature"]["recordTime"]
                 temp = str(temperature) + str(unit)
-                print(temp)
+                print(temp + utime)
+                if temperature > 25 and temperature <= 30:
+                    emoji = ":/"
+                elif temperature >= 18 and temperature <= 25:
+                    emoji = ":)"
+                elif temperature < 18 or temperature > 30:
+                    emoji = ":("
                 break
     except Exception as e:
         print("Error accessing weather API:", str(e))
@@ -78,6 +84,7 @@ weather()
 sync_time()
 
 counter = 0
+counter_weather = 0
 
 while True:
 
@@ -101,7 +108,11 @@ while True:
     time.sleep(1)
 
     counter += 1
+    counter_weather += 1
     if counter >= 20000:
         sync_time()
         weather()
         counter = 0
+    if counter_weather >= 9999:
+        weather()
+        counter_weather = 0
