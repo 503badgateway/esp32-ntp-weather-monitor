@@ -1,9 +1,9 @@
 
 <img src="https://github.com/503badgateway/esp32-ntp-weather-monitor/blob/main/img.jpeg?raw=true" style="width: 25%"></img>
 # esp32-ntp-weather-monitor  
- - Shows Weather
+ - Shows Weather (Every 9999s)
  - Shows Time
- - NTP Synchronize time
+ - NTP Synchronize time (Every 20000s)
  - Show emojis based on the weather :) / or :/ or :(
 
 Todo List:
